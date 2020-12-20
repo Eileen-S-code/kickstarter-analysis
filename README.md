@@ -13,6 +13,7 @@
 - The rows were based on the date created and filtered for month only.
 - The count of outcomes for successful, failed and canceled projects were displayed in the columns.
 - Then a line graph was created to display the results.
+![Outcomes_vs_Goals]C:\Users\shimizen\Desktop\UT Bootcamp\Module 1\Resources\Outcomes_vs_Goals.png
 ### Analysis of Outcomes Based on Goals
 - To perform the analysis on outcomes based on goals the =Countifs() function was used.
 - For example when determining the number of successful plays with a goal of 5000 to 9999 the following code was used 
