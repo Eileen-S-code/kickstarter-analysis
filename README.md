@@ -13,7 +13,7 @@
 - The rows were based on the date created and filtered for month only.
 - The count of outcomes for successful, failed and canceled projects were displayed in the columns.
 - Then a line graph was created to display the results.
-- ![Theater_Outcomes_vs_Launch](Resoures.zip/Theater_Outcomes_vs_Launch.png)
+- ![Theater_Outcomes_vs_Launch](Resoures.zip)
 ### Analysis of Outcomes Based on Goals
 - To perform the analysis on outcomes based on goals the =Countifs() function was used.
 - For example when determining the number of successful plays with a goal of 5000 to 9999 the following code was used 
@@ -22,7 +22,7 @@
 - To find the percentage successful, failed, and canceled per each funding category the SUM() of the all the played was found.
 - Then each category (successful, failed, and canceled) were divide by the total number of projects and multiplied by 100.
 - Finally for visual analysis a line graph of each was created.
-- ![Outcomes_vs_Goals](Resources.zip/Outcomes_vs_Goals.png)
+- ![Outcomes_vs_Goals](Resources.zip)
 
 ### Challenges
 - At first I thought filtering the data sheet for plays would change the COUNTIFS function output. When it did not I realized that I needed to add another criteria in the function to filter for plays. 
